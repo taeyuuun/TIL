@@ -77,7 +77,7 @@ export var MOBILE_OS;
 
 JavaScript에 존재하지 않는 것을 구현하기 위해 TypeScript 컴파일러는 IIFE(즉시 실행 함수)를 포함한 코드를 생성합니다. 그런데 [Rollup](https://rollupjs.org/guide/en/)과 같은 번들러는 IIFE를 '사용하지 않는 코드'라고 판단할 수 없어서 Tree-shaking이 되지 않습니다. 결국 `MOBILE_OS`를 import하고 실제로는 사용하지 않더라도 최종 번들에는 포함되는 것입니다.
 
-!https://engineering.linecorp.com/wp-content/uploads/2020/07/9fba7580-ba18-11ea-9c22-9344d1208a74-1024x512.png
+<img src="!https://engineering.linecorp.com/wp-content/uploads/2020/07/9fba7580-ba18-11ea-9c22-9344d1208a74-1024x512.png">
 
 # **그렇다면 enum 말고 어떤 것을 사용하면 좋을까요?**
 
