@@ -76,9 +76,9 @@
     
     실행후에 
     
-    [configure_android_studio_sdk_components_setup.avif](https://prod-files-secure.s3.us-west-2.amazonaws.com/76b2ab41-d987-4a6a-aa2e-4443fe3e03a7/48082d66-5697-4e40-a7d3-38c99fc09b91/configure_android_studio_sdk_components_setup.avif)
-    
-    [configure_android_studio_emulator_settings.avif](https://prod-files-secure.s3.us-west-2.amazonaws.com/76b2ab41-d987-4a6a-aa2e-4443fe3e03a7/9af0e85b-7655-4743-95f4-c5ed5486d9af/configure_android_studio_emulator_settings.avif)
+    ![스크린샷 2024-04-18 172725](https://github.com/taeyuuun/TIL/assets/103999904/43d1943b-a735-46ff-b190-f6e66ca6fc90)
+
+    ![스크린샷 2024-04-18 172752](https://github.com/taeyuuun/TIL/assets/103999904/0ee571e3-948c-40ae-b2f1-3303f3223f14)
     
     이렇게 설정하면 끝이다
     
