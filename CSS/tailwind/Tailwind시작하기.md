@@ -31,7 +31,15 @@ module.exports = {
 npx tailwind init -p
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/76b2ab41-d987-4a6a-aa2e-4443fe3e03a7/97cfbc3b-82ff-4590-a04b-a4fddcd91cda/image.png)
+```css
+module.export = {
+	content: [],
+	theme: {
+		extend: {},
+	}.
+	plugins: [],
+}
+```
 
 ## 기본 설정 커스텀
 
@@ -57,7 +65,11 @@ module.exports = {
 
 CRA로 생성된 프로젝트 이므로 `src/index.css`에 추가 해줍시다.
 
-!https://velog.velcdn.com/images/dmk-jongwho/post/2e3946f7-a4d7-4b1b-9150-4bb7275f2eb2/image.png
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
 ### IntelliSense 설치 (vscode)
 
@@ -88,11 +100,39 @@ VS Code Extention인 [IntelliSense](https://marketplace.visualstudio.com/items?
 
 위에서 말했듯 tailwind.config.js를 통해 기본 스타일 값을 쉽게 커스텀할 수 있습니다.
 
-!https://velog.velcdn.com/images/dmk-jongwho/post/300dbe03-524f-4ad7-9ac8-aa3f63741cc8/image.png
+```css
+module.export = {
+	content: [",/src/**/*.{js,jsx,ts,tsx}"],
+	theme: {
+		extend: {
+			color: {
+				primary: {
+					DEFAULT: "#7F43F5:,
+					1: "#000000",
+					2: "#A884EF",
+					3: "#BCA4EB",
+				},
+				gray: {
+					DEFAULT: "#FFFFFF",
+					1: "#E5E5E5",
+					2: "#AEB0B4",
+					3: "#707885",
+					4: "#353C49",
+				},
+			},
+		},
+	},
+	plugins: [],
+};
+```
 
 위와 같이 커스텀 컬러를 정의해둔 후 아까 작성했던 버튼의 클래스명을 아래와 같이 바꿔볼까요?
 
-!https://velog.velcdn.com/images/dmk-jongwho/post/f7772111-0cd8-4166-aae2-a7b51ca1aa09/image.png
+```css
+<button className="py-2 px-4 font-senibold rounnded-lg shadow-md text-primary bg-gray-2 hover:bg-green-700">
+	Hello Tailwind!
+</button>
+```
 
 !https://velog.velcdn.com/images/dmk-jongwho/post/5bcbf9df-9d6a-423d-815a-c4c0ad80b177/image.png
 
