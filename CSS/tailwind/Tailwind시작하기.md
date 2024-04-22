@@ -73,7 +73,7 @@ CRA로 생성된 프로젝트 이므로 `src/index.css`에 추가 해줍시다.
 
 ### IntelliSense 설치 (vscode)
 
-!https://velog.velcdn.com/images/dmk-jongwho/post/cc63795e-9b08-4e97-9c0c-4f10a776344b/image.png
+![popcon](https://github.com/taeyuuun/TIL/assets/103999904/61befcad-28e2-4167-86c4-226cc49ad57f)
 
 > Intellisence for VScode
 > 
@@ -84,7 +84,7 @@ VS Code Extention인 [IntelliSense](https://marketplace.visualstudio.com/items?
 
 ### 사용하기
 
-!https://velog.velcdn.com/images/dmk-jongwho/post/6a55ae91-5799-4bb8-b1e1-99ff6b67119f/image.png
+![스크린샷 2024-04-19 120609](https://github.com/taeyuuun/TIL/assets/103999904/22035d38-c92d-4cf3-a6ca-8041184f45f9)
 
 ```css
 <button className="py-2 px-4 fon-semibold rounded-lg shadow-md text-white bg-gree-500 hover:bg-green-700">
@@ -134,7 +134,7 @@ module.export = {
 </button>
 ```
 
-!https://velog.velcdn.com/images/dmk-jongwho/post/5bcbf9df-9d6a-423d-815a-c4c0ad80b177/image.png
+![스크린샷 2024-04-22 201816](https://github.com/taeyuuun/TIL/assets/103999904/7c60ebde-fe08-4bb6-b933-5e6dbe474c6f)
 
 tailwind.config.js파일에 작성 한 커스텀 컬러가 잘 적용이 됐습니다.
 
