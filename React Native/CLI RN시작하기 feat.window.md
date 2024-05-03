@@ -48,6 +48,7 @@
     
     ```css
     choco install -y jdk8
+    <!-- 만약 안된다면 jdk8로 설치후 choco upgrade openjdk11을 실행시키면 된다 -->
     
     java -version
     
